@@ -1,0 +1,17 @@
+{ "name": "hubot-zeromq"
+, "version": "0.1.0"
+, "author": "hubot"
+
+, "repository":
+  { "type": "git"
+  , "url":  "https://github.com/technoweenie/hubot-zeromq.git"
+  }
+
+, "dependencies":
+  { "hubot":  ">= 1.1.0"
+  , "zeromq": "0.5.1"
+  }
+
+, "main":   "./index"
+, "engine": "node >= 0.4.1 < 0.5.0"
+}
