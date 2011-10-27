@@ -8,7 +8,6 @@ publish:
 	git push origin master
 	git push origin v$(VERSION)
 	npm publish
-	@make remove-js
 
 .PHONY: all
 
